@@ -10,7 +10,7 @@ describe('repeatString', () => {
   test('repeats the string 1 times', () => {
     expect(repeatString('hey', 1)).toEqual('hey');
   });
-  test.skip('repeats the string 0 times', () => {
+  test('repeats the string 0 times', () => {
     expect(repeatString('hey', 0)).toEqual('');
   });
   test('returns ERROR with negative numbers', () => {
@@ -31,7 +31,7 @@ describe('repeatString', () => {
     was randomly generated. */
     expect(repeatString('hey', number).match(/((hey))/g).length).toEqual(number);
   });
-  test.skip('works with blank strings', () => {
+  test('works with blank strings', () => {
     expect(repeatString('', 10)).toEqual('');
   });
 });
