@@ -1,0 +1,7 @@
+# First
+Create function with a string argument and a ...rest argument.
+Use the ...rest arguments to remove those values from the first string.
+Return a new string with original values minus ...rest values.
+
+# Seccond
+Remove multiple values
