@@ -1,7 +1,15 @@
 const sumAll = function(num1, num2) {
     let finalValue = 0;
     let array = [];
-        for (let i = num1; i <= num2; i++) {
+    if (num1 < num2) {
+        temp = num1;
+        num2 = num1;
+        num1 = temp;
+        
+    } else {
+
+    }
+    for (let i = num1; i <= num2; i++) {
                 array.push(i);
         }
         finalValue = array.reduce((
